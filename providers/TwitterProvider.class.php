@@ -12,7 +12,7 @@ class TwitterProvider extends Provider{
     $count = json_decode($json, true); // json strint
 
     return intval($count['followers_count']); // here is your integer
-}
+                                     }//end of fucntion fetch_twitter_count
   
 } // end class TwitterProvider
 
